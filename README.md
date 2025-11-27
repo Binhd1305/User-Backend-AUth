@@ -13,6 +13,7 @@ MyCoffee is a Spring Boot application that provides user registration and authen
 - JPA & Hibernate
 - Lombok
 - JWT Authentication
+- HTML/CSS/JAVASCRIPT
 
 ---
 
