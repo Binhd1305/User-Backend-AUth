@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="thebistro.css">
+</head>
+<body>
+    <!--Binh do
+          Special.html
+           Olberding
+            10/3/2022
+        -->
+<div id="wrapper">
+    <header><h1 style="font-size: 40px;">The Bistro Cafe</h1>
+                <p>Let us know how you feel</p>
+    </header>
+    <nav>
+        <ul>
+        <li><a href="thebistro.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="special.html">Special</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    </nav>
+    <h2>The Bistro Cafe</h2>
+    <h3 style="font-size:25px ;">Your feed back:</h3>
+    <p id="text"><span class="hastag">*</span>Please complete the following survey to provide us with information so that 
+        we can make a good survey. Your information will be kept private and will 
+        not be shared with any other organization.<span class="hastag">*</span></p>
+        <form action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp" method="post"> 
+            <input type="hidden" name="recipient" value="lolberding@mccneb.edu"> 
+            <input name="title" type="hidden" value="Thank you for taking the time to complete the form.">
+            <input name="return_link_title" type="hidden" value=" Back_to_form">
+            <input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~dnbinh/project/contact.html">
+            <input name="bgcolor" type="hidden" value="#f5f5f5">
+            <input type="hidden" name="text_color" value="#8B4513;">
+            <input name="font_size" type="hidden" value="10">
+            <input name="font_face" type="hidden" value="Arial,Helvetica">
+            <input type="hidden" name="subject" value="INFO1311 Final project Binh Do">
+            <input name="redirect" type="hidden" value="http://student.mccinfo.net/~dnbinh/project/feedback.html">
+
+    <p class="text">First Name: <br> <input type="text" id="fname" name="fname" size="17" autofocus></p>
+    <p class="text">Last Name: <br> <input type="text" id="lname" name="lname" size="17">
+    </p>
+    <p class="text"><span class="hastag">*</span>Email:  <br><input type="email" id="email" name="email" size="30"  required>
+    </p>
+    <p class="text">Phone number: <input type="tel" id="phonenumber" size="20" name="phone" placeholder="xxx-xxx-xxxx"></p>
+    <fieldset>
+        <legend class="text">Which food is the best taste ?</legend>
+    <ul style="list-style-type: none"> 
+        <li><input type="checkbox" name="Fried" id="Fried" value="Portugal Fried">Portugar Fried</li>
+        <li><input type="checkbox" name="beef" id="beff" value="Beef Steak">Beef Steak</li>
+        <li><input type="checkbox" name="Drink" id="Coffe" value="Coffe">Coffe</li>
+        <li><input type="checkbox" name="drink" id="matcha" value="Matcha Latte">Matcha Latte</li>
+        <li><input type="checkbox" name="desert" id="Cheese_cake" value="Cheese cake">Cheese Cake</li>
+        <li><input type="checkbox"  size="15">Others:<input type="text" id="others" name="others" placeholder="Specific" size="9"></li>
+    </ul>
+</fieldset>
+<p class="text">Do you sastisfied with our product?<br>
+        <textarea name="writing" id="writing" rows="5" cols="60"  maxlength="1000" placeholder="Enter text here" required></textarea>
+</p>
+    <p><input type="submit" value="Send"> 
+        &nbsp;
+          <input type="reset" value="Clear Form"></p>
+</form>
+<footer>
+    <a href="thebistro.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="special.html">Special</a>
+    <a href="contact.html">Contact Us</a>
+    <p>Copyright&#169; 2022 by <a href="mailto:dnbinh@mail.mccneb.edu" target="_blank">Binh&nbsp;Do</a></p>
+    <a href="https://www.bestlittlecoffeeshops.com/how-to-make-a-matcha-latte/">image</a>
+    <a href="https://www.canva.com/">banner</a>
+    <a href="https://unsplash.com/@markdaynes">background image</a>
+</footer>
+</div>
+</body>
+</html>

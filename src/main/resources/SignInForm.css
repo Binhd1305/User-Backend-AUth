@@ -1,0 +1,81 @@
+/* === Form Container === */
+form {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.10);
+    font-family: Arial, sans-serif;
+}
+
+/* === Form Title === */
+main h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #5c3d2e; /* café brown */
+}
+
+/* === Labels === */
+form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4a3728;
+}
+
+/* === Input Fields === */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* On focus */
+form input:focus {
+    border-color: #c18a5f;
+    box-shadow: 0px 0px 4px rgba(193, 138, 95, 0.5);
+    outline: none;
+}
+
+/* === Submit Button === */
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b5e34; /* coffee dark brown */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+/* Hover effect */
+form input[type="submit"]:hover {
+    background-color: #a97449;
+}
+
+/* === Bottom Link (Sign Up or Sign In) === */
+main p {
+    text-align: center;
+    font-size: 14px;
+}
+
+main p a {
+    color: #8b5e34;
+    font-weight: bold;
+}
+
+main p a:hover {
+    text-decoration: underline;
+}
